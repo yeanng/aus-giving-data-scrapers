@@ -2,7 +2,7 @@
 import requests
 
 SUPABASE_URL = "https://fswalnobzhvwobrypxzq.supabase.co"
-SUPABASE_API_KEY = "your-anon-or-service-key"
+SUPABASE_API_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZzd2Fsbm9iemh2d29icnlweHpxIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDU1NDk5MjMsImV4cCI6MjA2MTEyNTkyM30.w-2vAdDaahEco0L1R5nMFOM7l6cQPjKIUCAbOaZ5Mwg"
 
 def upload_grant(data):
     headers = {
